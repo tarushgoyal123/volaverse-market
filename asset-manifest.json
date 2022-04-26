@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/volaverse-market/static/css/main.29bbe446.chunk.css",
+    "main.js": "/volaverse-market/static/js/main.d7cb232f.chunk.js",
+    "main.js.map": "/volaverse-market/static/js/main.d7cb232f.chunk.js.map",
+    "runtime-main.js": "/volaverse-market/static/js/runtime-main.255c198f.js",
+    "runtime-main.js.map": "/volaverse-market/static/js/runtime-main.255c198f.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/volaverse-market/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.b69aaedf.chunk.js": "/volaverse-market/static/js/2.b69aaedf.chunk.js",
+    "static/js/2.b69aaedf.chunk.js.map": "/volaverse-market/static/js/2.b69aaedf.chunk.js.map",
+    "static/js/3.cfee04c0.chunk.js": "/volaverse-market/static/js/3.cfee04c0.chunk.js",
+    "static/js/3.cfee04c0.chunk.js.map": "/volaverse-market/static/js/3.cfee04c0.chunk.js.map",
+    "index.html": "/volaverse-market/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/volaverse-market/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.29bbe446.chunk.css.map": "/volaverse-market/static/css/main.29bbe446.chunk.css.map",
+    "static/js/2.b69aaedf.chunk.js.LICENSE.txt": "/volaverse-market/static/js/2.b69aaedf.chunk.js.LICENSE.txt",
+    "static/media/FirstDecorationTable.b81126b1.fbx": "/volaverse-market/static/media/FirstDecorationTable.b81126b1.fbx",
+    "static/media/hat3_.66c94ffc.png": "/volaverse-market/static/media/hat3_.66c94ffc.png",
+    "static/media/land.d87f5747.png": "/volaverse-market/static/media/land.d87f5747.png",
+    "static/media/land2.918dcc8d.png": "/volaverse-market/static/media/land2.918dcc8d.png",
+    "static/media/land3.490f9d5d.png": "/volaverse-market/static/media/land3.490f9d5d.png",
+    "static/media/land4.668e1a7c.png": "/volaverse-market/static/media/land4.668e1a7c.png",
+    "static/media/logo_without_bg.89dfb752.png": "/volaverse-market/static/media/logo_without_bg.89dfb752.png",
+    "static/media/table.6aaba773.png": "/volaverse-market/static/media/table.6aaba773.png",
+    "static/media/table3.0b9b5343.png": "/volaverse-market/static/media/table3.0b9b5343.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.255c198f.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.b69aaedf.chunk.js",
+    "static/css/main.29bbe446.chunk.css",
+    "static/js/main.d7cb232f.chunk.js"
+  ]
+}
