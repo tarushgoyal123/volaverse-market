@@ -547,3 +547,22 @@ export async function closeSale(contractAddress, tokenId, price) {
         console.log("web3 not defined");
     }
 }
+
+export async function buyProduct(contractAddress, tokenId, price) {
+    const web3 = new Web3(window.ethereum);
+    if (typeof web3 !== 'undefined') {
+        var abi = JSON.parse(nftManagerAbi);
+        var myContract = new web3.eth.Contract(abi, nftManagerContractAddress);
+        var response = await myContract.methods
+            .purchase(contractAddress, tokenId)
+            .send({
+                from: window.web3.currentProvider.selectedAddress,
+                to: nftManagerContractAddress,
+                value: price
+            });
+        console.log("closeSale | response:", response);
+        return response;
+    } else {
+        console.log("web3 not defined");
+    }
+}

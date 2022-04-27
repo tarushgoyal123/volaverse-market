@@ -2,16 +2,8 @@ import { useState, useContext, useEffect } from 'react';
 import { Context } from '../../../ContextStore';
 import { Button, Modal, Form, OverlayTrigger, Tooltip, Col, Spinner} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { RiMessage3Fill } from 'react-icons/ri';
-import { GrEdit } from 'react-icons/gr';
-import { MdArchive } from 'react-icons/md'
-import { BsFillPersonFill } from 'react-icons/bs';
-import { MdEmail, MdPhoneAndroid } from 'react-icons/md'
-import { FaSellsy } from 'react-icons/fa'
-import { archiveSell } from '../../../services/productData';
-import { createChatRoom } from '../../../services/messagesData';
 import {checkIfWalletIsConnected2} from '../../../services/userData'
-import { getApproval, setApproval, startSale, closeSale } from '../../../services/productData';
+import { getApproval, setApproval, startSale, closeSale, buyProduct } from '../../../services/productData';
 import './Aside.css';
 
 import styled from 'styled-components';
@@ -101,6 +93,15 @@ function Aside({ params, history }) {
         .catch(err => console.log(err));
     }
 
+    const handleBuy = (event) => {
+        event.preventDefault();
+        console.log("helllo from buy");
+        buyProduct(contractAddress, tokenId, givenPrice)
+        .then(res => {
+            console.log("post buy: ", res);
+        })
+        .catch(err => console.log(err));
+    }
 
     const handlePermChange = (event) => {
         event.preventDefault();
@@ -154,7 +155,7 @@ function Aside({ params, history }) {
                 </div>
                 {userData.isAuth ? (<>
                     {!userData.isOwner && userData.onSale &&
-                        <Button variant="dark" className="col-lg-10" id="btnContact" onClick={handleTodoButton}>
+                        <Button variant="dark" className="col-lg-10" id="btnContact" onClick={handleBuy}>
                             Buy
                         </Button>
                     }
