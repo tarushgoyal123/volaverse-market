@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/volaverse-market/static/css/main.29bbe446.chunk.css",
-    "main.js": "/volaverse-market/static/js/main.d7cb232f.chunk.js",
-    "main.js.map": "/volaverse-market/static/js/main.d7cb232f.chunk.js.map",
-    "runtime-main.js": "/volaverse-market/static/js/runtime-main.255c198f.js",
-    "runtime-main.js.map": "/volaverse-market/static/js/runtime-main.255c198f.js.map",
+    "main.js": "/volaverse-market/static/js/main.6b75c716.chunk.js",
+    "main.js.map": "/volaverse-market/static/js/main.6b75c716.chunk.js.map",
+    "runtime-main.js": "/volaverse-market/static/js/runtime-main.c5af932f.js",
+    "runtime-main.js.map": "/volaverse-market/static/js/runtime-main.c5af932f.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/volaverse-market/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.b69aaedf.chunk.js": "/volaverse-market/static/js/2.b69aaedf.chunk.js",
-    "static/js/2.b69aaedf.chunk.js.map": "/volaverse-market/static/js/2.b69aaedf.chunk.js.map",
-    "static/js/3.cfee04c0.chunk.js": "/volaverse-market/static/js/3.cfee04c0.chunk.js",
-    "static/js/3.cfee04c0.chunk.js.map": "/volaverse-market/static/js/3.cfee04c0.chunk.js.map",
+    "static/js/2.a2a1a473.chunk.js": "/volaverse-market/static/js/2.a2a1a473.chunk.js",
+    "static/js/2.a2a1a473.chunk.js.map": "/volaverse-market/static/js/2.a2a1a473.chunk.js.map",
+    "static/js/3.9364297a.chunk.js": "/volaverse-market/static/js/3.9364297a.chunk.js",
+    "static/js/3.9364297a.chunk.js.map": "/volaverse-market/static/js/3.9364297a.chunk.js.map",
     "index.html": "/volaverse-market/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/volaverse-market/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.29bbe446.chunk.css.map": "/volaverse-market/static/css/main.29bbe446.chunk.css.map",
-    "static/js/2.b69aaedf.chunk.js.LICENSE.txt": "/volaverse-market/static/js/2.b69aaedf.chunk.js.LICENSE.txt",
+    "static/js/2.a2a1a473.chunk.js.LICENSE.txt": "/volaverse-market/static/js/2.a2a1a473.chunk.js.LICENSE.txt",
     "static/media/FirstDecorationTable.b81126b1.fbx": "/volaverse-market/static/media/FirstDecorationTable.b81126b1.fbx",
     "static/media/hat3_.66c94ffc.png": "/volaverse-market/static/media/hat3_.66c94ffc.png",
     "static/media/land.d87f5747.png": "/volaverse-market/static/media/land.d87f5747.png",
@@ -25,10 +25,10 @@
     "static/media/table3.0b9b5343.png": "/volaverse-market/static/media/table3.0b9b5343.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.255c198f.js",
+    "static/js/runtime-main.c5af932f.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.b69aaedf.chunk.js",
+    "static/js/2.a2a1a473.chunk.js",
     "static/css/main.29bbe446.chunk.css",
-    "static/js/main.d7cb232f.chunk.js"
+    "static/js/main.6b75c716.chunk.js"
   ]
 }
