@@ -10,14 +10,19 @@ import styled from 'styled-components';
 
 const H6 = styled.h6`
     color : #E7E6E6;
+    margin-left : 30px;
+    margin-bottom : 10px;
 `;
 
 const H1 = styled.h1`
     color : #E7E6E6;
+    margin-left : 30px;
+    margin-bottom : 20px;
 `
 
 const P = styled.p`
     color : #E7E6E6;
+    padding : 0;
 `
 
 function ProductInfo({ params }) {
@@ -84,14 +89,16 @@ function ProductInfo({ params }) {
 
             </div>
             <Row>
-                <H1 className="col-lg-10 col-sm-10 product-info-heading">{info.category}</H1>
-                <H6 className="col-lg-10 col-sm-10">{"Address: " + info.contractAddress.substr(0,6)+"..."}</H6>
+                <H1 className="col-lg-10 col-sm-10 product-info-heading">{info.category.toUpperCase()}</H1>
+                <H6 className="col-lg-10">{"Address: " + info.contractAddress}</H6>
                 <H6 className="col-lg-10 col-sm-10">{"Token ID: " + info.tokenId}</H6>
             </Row>
             <div id="detailsCardText" className="col-lg-12">
                 <Tabs defaultActiveKey="details" transition={false}>
                     <Tab eventKey="details" title="Details" id="tab-details">
-                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+                    {params.category == "land" && <P>Buy a piece of a land and start spreading the knowledge</P>}
+                    {params.category == "decoration" && <P>Make your scene more aesthetic with these limited edition collectibles</P>}
+                    {params.category == "wearable" && <P>Make your avatar more fashionable and trendy</P>}
                         <hr />
                         <P id="details-footer" className="text-muted">Product listed at {"00-00-0000"}</P>
                     </Tab>
